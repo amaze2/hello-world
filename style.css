@@ -1,0 +1,108 @@
+a:link {	
+	color: blue;
+	text-decoration: none;
+		}
+a:visited {
+	color: blue;
+	text-decoration: none;
+			}
+a:hover {
+	color:black;
+	text-decoration: underline;
+		}
+a:active {
+	color: red;
+		}  
+a.page{
+	color: red;
+	text-decoration: underline;
+		}  
+a.nav{color: black;
+	text-decoration: none;
+		}
+a.nav:visited{
+			color: black;
+	text-decoration: none;
+			}
+a.nav:active {
+color: red;
+}
+	
+	
+
+
+		
+nav { 
+    display: block;
+    text-align: center;
+    margin: auto;
+    word-spacing: 1em;
+	padding: 1%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Thasadith', 'Roboto', 'Open Sans', 'Ubuntu', 'Montserrat', sans-serif;
+}
+
+
+#main{
+	display: block;
+    padding: 0%;
+    margin:0em;
+    font-weight: bold;
+    font-size: 200%; 
+    text-align: center;
+    word-spacing: 0em;
+    font-family: 'Montserrat','Open Sans', 'Roboto', 'Thasadith', sans-serif;
+}
+
+
+#subhead{
+	display: block;
+    padding: 1% 0% 0% 0%;
+    font-weight: bold;
+    font-size: 125%; 
+    text-align: center;
+    font-family:'Open Sans','Thasadith',   sans-serif;
+}
+
+
+#text{
+    padding: 1em;
+    max-width:900px;
+    margin: auto;
+    font-family: avenir, sans-serif;
+}
+
+
+#icon{
+	margin: auto;
+ max-width:175px;
+}
+
+
+footer{
+font-size:10px;
+}
+
+img {display: block; margin: auto; width: 30%; position: relative}
+
+
+
+@media (max-width: 600px) {
+
+    #menu li {
+        padding: 2px;
+        display:list-item;
+        list-style-type: none;
+        text-align:left;
+    }
+    #main{
+    	width: 50%;
+    	text-align: center;
+    }
+
+   .mySlides{
+   		display: none;
+   		}
+   		
+}
